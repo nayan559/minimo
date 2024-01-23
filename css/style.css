@@ -1,0 +1,314 @@
+
+/* ===============================
+* Author Name: NAYAN DAS
+* Author URL: nayandas.com
+* Theme URL: nayandas.com/minimo
+* Skype: 
+* Description: 
+================================ */
+
+/*
+01: Hrader Section CSS;
+02: Hero Section CSS;
+03: The perfect weekend getaway Section CSS;
+04: Lifestyle Section Section CSS;
+05: Sign up for our newsletter SECTION CSS;
+06: Load More Section CSS;
+07: Footer Section CSS;
+
+ */
+
+/*00: Global CSS Start*/
+
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Ubuntu:300,400,500,700&display=swap');
+
+body{
+	color: #626262;
+	font-size: 16;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+h2{
+	margin: 36px 0;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+}
+.detail{
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: .2px;
+	font-family: 'Playfair Display', serif;
+}
+.title{
+	font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*00: Global CSS End*/
+
+
+/* Back To Top Button CSS */
+#button {
+  display: inline-block;
+  background-color: #323a3c;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s;
+  z-index: 1000;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333333d1;
+}
+#button:active {
+  background-color: #555;
+}
+#button::after {
+  content: "\f106";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 40px;
+  color: #fff;
+}
+.show{
+  display: inline-block !important;
+}
+
+button:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+}
+.navbar-toggler {
+    border: 0px solid transparent;
+}
+
+/* Stacky Manu */
+.navbar {
+    transition: 0.4s;
+}
+.nav-bg{
+  background-color: #000;
+}
+.scroll-nav {
+    background-color: #dcdcdc;
+    padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.nav-item .active{
+    color: #E91E63!important;
+}
+
+
+/*01: Hrader Section CSS Start */
+.header{
+	padding: 35px 0px;
+}
+.logo{
+	font-size: 40px;
+}
+.ml-auto {
+    margin-left: auto!important;
+    text-align: center;
+}
+.nav-item{
+	margin-left: 65px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: rgba(0,0,0,.8);
+    transform: scale(1.3);
+}
+/*01: Hrader Section CSS End*/
+
+
+/*02: Hero Section CSS Start */
+.hero{}
+.hero-bg{
+	background-image: url(../img/banner/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 775px;
+	width: 85%;
+	display: block;
+	margin: 0 auto;
+}
+/*02: Hero Section CSS End*/
+
+
+/*03: The perfect weekend getaway Section CSS START*/
+.weekend{
+	margin: 100px 0;
+}
+.weekend-detail .detail{
+	margin-bottom: 36px;
+}
+.weekend-detail .comment{
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+/*03: The perfect weekend getaway Section CSS END*/
+
+
+/*04: Lifestyle Section Section CSS START*/
+.lifestyle{
+	margin: 100px 0;
+}
+.lifestile-detail{
+	padding: 0 20px;
+}
+.lifestile-detail img{
+	width: 100%;
+	padding-bottom: 36px;
+}
+.lifestile-detail p{
+	padding-bottom: 36px;
+}
+.lifestile-detail h2{
+	padding-bottom: 36px;
+}
+
+/*04: Lifestyle Section Section CSS END*/
+
+/*05: Sign up for our newsletter SECTION CSS START*/
+.newsletter{
+	padding: 100px 0;
+	background-color: #f0f0f0;
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
+.newnletter-form{
+	text-align: center;
+}
+.newnletter-form h2{	
+	padding-bottom: 75px;
+}
+.newnletter-form .form-grup{
+	width: 100%;
+	position: relative;
+}
+.newnletter-form .form-grup input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #000;
+	width: 65%;
+	font-size: 18px;
+	padding-bottom: 4px;
+}
+.newnletter-form .form-grup a{
+	position: absolute;
+	right: 100px;
+	top: 2px;
+}
+/*05: Sign up for our newsletter SECTION CSS END*/
+
+
+/*06: Load More Section CSS START*/
+.load-more{
+	padding: 100px 0;
+}
+.load-more button{
+	margin: 0 auto;
+	display: block;
+	background-color: transparent;
+	border: 1px solid #616161;
+	padding: 18px 55px;
+	cursor: pointer;
+	font-size: 22px;
+	transition-duration: 0.3s;
+	transition-property: box-shadow;
+	color: #626262;
+}
+.load-more button:hover{
+	box-shadow: 5px 5px 10px rgba(76, 45, 46, 0.32);
+}
+/*06: Load More Section CSS END*/
+
+
+/*07: Footer Section CSS START*/
+.footer{
+	padding: 30px 0 6px;
+	background-color: #f0f0f0;
+}
+.footer-detail h6{
+
+}
+.footer-detail h6 span{
+	padding-left: 16px;
+} 
+.footer-social{
+	display: flex;
+	justify-content: flex-end;
+}
+.footer-social h6{
+	display: inline;
+	padding-right: 30px;
+}
+.footer-social ul{
+	padding: 0;
+	display: inline;
+}
+.footer-social ul li{
+	list-style: none;
+	display: inline;
+	padding: 0 10px;
+}
+/*07: Footer Section CSS END*/
+
+
+/*===== 08: Media Query Start =====*/
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.navbar {
+	    transition: 0.4s;
+	    background-color: #fff;
+	}
+}
+
+/*When Screen Size goes below 768px then this CSS will be active */
+
+@media screen and (max-width: 767.98px) {
+	
+	.hero-bg {
+	    min-height: 310px;
+	}
+}
+
+
+/*When Screen Size goes below 576px then this CSS will be active */
+
+@media screen and (max-width: 575.98px) {
+	.footer-detail h6 {
+	    text-align: center;
+	}
+	.footer-social {
+	    justify-content: center;
+	    padding-top: 15px;
+	}
+}
